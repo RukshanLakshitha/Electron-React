@@ -1,0 +1,23 @@
+{
+  "name": "ElectronApp",
+  "version": "1.0.0",
+  "description": "This repository contains electron desktop application built on ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RukshanLakshitha/Electron-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RukshanLakshitha/Electron-React/issues"
+  },
+  "homepage": "https://github.com/RukshanLakshitha/Electron-React#readme",
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
+}
