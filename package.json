@@ -2,7 +2,7 @@
   "name": "ElectronApp",
   "version": "1.0.0",
   "description": "This repository contains electron desktop application built on ReactJS",
-  "main": "index.js",
+  "main": "./app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
