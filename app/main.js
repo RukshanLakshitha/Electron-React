@@ -12,6 +12,7 @@ app.on('ready', function(){
     });
 
     appWindow.loadURL('file://' + __dirname + '/index.html');
+    appWindow.setMenu(null);
 
     infoWindow = new browserWindows({
         width: 400,
@@ -25,12 +26,6 @@ app.on('ready', function(){
 
     appWindow.once('ready-to-show', function(){
         appWindow.show();
-        setTimeout(function() {
-            infoWindow.show();
-            setTimeout(function() {
-                //infoWindow.hide();
-            }, 3000);
-        },1000);
     });
 
     ipc.on('closeInfoWindow', function(event, arg){
