@@ -11,7 +11,7 @@ app.on('ready', function(){
         show: false
     });
 
-    appWindow.loadURL('http://raybo.org');
+    appWindow.loadURL('file://' + __dirname + '/index.html');
 
     infoWindow = new browserWindows({
         width: 400,
