@@ -12,7 +12,7 @@ app.on('ready', function(){
     });
 
     appWindow.loadURL('file://' + __dirname + '/index.html');
-    appWindow.setMenu(null);
+    //appWindow.setMenu(null);
 
     infoWindow = new browserWindows({
         width: 400,
